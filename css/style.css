@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    float: left;
+    width: 30%;
+    padding: 10px 10px 15px 10px;
+    margin-left: auto;
+    margin-right: 3%;
+    background-color: grey;
+    border: 1px solid black;
+    position: relative;
+    
+}
+.sectionTitle{
+    width: 25%;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    text-transform: capitalize;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containerText{
+    padding-top: 30px;
+}
+
+.sectionTitle--Left{
+    background-color: pink;
+    color: black;
+}
+
+.sectionTitle--Mid{
+    background-color: red;
+    color: #ffffff;
+}
+.sectionTitle--Right{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+@media(max-width:992px){
+    .container{
+        width: 25%;
+        float: left;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+    .containerLeft{
+        clear: left;
+        width: 97%;
+        margin-right: 15px;
+    }
+    .containerMedium{
+        float: left;
+        width: 47%;
+        margin-right: 3%;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        clear:left;
+        width: 95%;
+        margin-bottom: 15px;
+    }
+}
