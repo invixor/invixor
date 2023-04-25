@@ -1,0 +1,25 @@
+@import '../source/null.scss';
+
+//-----------------general-----------------
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+@mixin fontStyle ($fs,$fw,$lh,$clr) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $clr;
+}
+
+@mixin flexStyle ($fl, $jc, $ai, $ta) {
+    display: $fl;
+    justify-content: $jc;
+    align-items: $ai;
+    text-align: $ta;
+}
+
+//-----------------general-----------------
