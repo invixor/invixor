@@ -37,7 +37,7 @@ body {
   font-weight: 400;
   color: #272937;
   font-family: "DM Sans", sans-serif;
-  background: rgba(39, 41, 55, 0.05);
+  background: #fff;
 }
 
 .wrapper {
@@ -45,4 +45,33 @@ body {
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
+}
+
+._container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+._hidden {
+  display: none;
+}
+
+.content__wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  flex-direction: row-reverse;
+}
+
+.right__side {
+  width: 80%;
+}
+
+.left__side {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #F7F9FC;
+  box-shadow: 2px 0px 4px lightgrey;
 }/*# sourceMappingURL=style.css.map */
