@@ -76,6 +76,33 @@ body {
   box-shadow: 2px 0px 4px lightgrey;
 }
 
+.title {
+  margin-bottom: 16px;
+}
+.title h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 133.33%;
+  color: rgb(46, 46, 72);
+}
+.title__icon {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  text-align: start;
+}
+.title__icon img {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  left: -50px;
+}
+
 .experience__body {
   padding: 32px 0px 24px 20px;
 }
@@ -180,4 +207,8 @@ body {
   line-height: 120%;
   font-family: "Outfit", sans-serif;
   font-size: 16px;
+}
+
+.tab_active {
+  background: #F8F2FC;
 }/*# sourceMappingURL=style.css.map */

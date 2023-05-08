@@ -52,7 +52,26 @@
 
 
 //-----------------experince-----------------
-
+.title{
+    margin-bottom: 16px;
+    h2{
+        font-family: 'Outfit', sans-serif;
+        @include fontStyle(26px, 500, 133.33%, rgba(46, 46, 72, 1));
+    }
+    &__icon {
+        position: relative;
+        @include flexStyle(flex, flex-start, start, start);
+        img{
+            border: 1px solid #fff;
+            border-radius: 50%;
+            background: #fff;
+            padding: 5px;
+            position: absolute;
+            top: 5px;
+            left: -50px;
+        }
+    }
+}
 .experience {
 
     &__body {
@@ -157,8 +176,52 @@
 }
 
 
-
+.tab_active{
+    background: #F8F2FC;
+}
 
 
 
 //-----------------/experince-----------------
+
+
+
+//-----------------skills-----------------
+
+
+.skills {
+
+		&__body {
+		}
+
+		&__title {
+		}
+
+		&__table {
+		}
+
+		&__category {
+		}
+}
+.title {
+
+		&__icon {
+		}
+}
+.skills-category {
+
+		&__title {
+		}
+
+		&__list {
+		}
+}
+.category-list {
+
+		&__item {
+		}
+}
+
+
+
+//-----------------/skills-----------------
