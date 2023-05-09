@@ -211,4 +211,130 @@ body {
 
 .tab_active {
   background: #F8F2FC;
+}
+
+.skills__body {
+  width: 700px;
+  padding: 32px 0px 24px 20px;
+}
+.skills__category {
+  margin-bottom: 25px;
+}
+
+.skills-category__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 128%;
+  color: #2E2E48;
+  margin-bottom: 15px;
+}
+.skills-category__title img {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 5px;
+  transform: translateY(-7px);
+}
+.skills-category__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  text-align: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.category-list__item {
+  padding: 11px 8px;
+  background: #F7F9FC;
+  border-radius: 0px 4px 0px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 128%;
+  color: #516CF7;
+}
+
+.tools__body {
+  width: 700px;
+  padding: 32px 0px 24px 20px;
+}
+.tools__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 10px;
+}
+.tools__item {
+  padding: 15px 5px 10px;
+  background: #F7F9FC;
+  border-radius: 5px;
+  width: 18%;
+}
+
+.tools-item__logo {
+  margin-bottom: 15px;
+}
+.tools-item__logo img {
+  width: 45px;
+  height: 45px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.tools-item__description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 128%;
+  color: #2E2E48;
+}
+
+.education__body {
+  width: 700px;
+  padding: 32px 0px 24px 20px;
+}
+.education__list {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.edu-list__item {
+  padding: 18px 12px 10px;
+  background: #F7F9FC;
+  width: 31.5%;
+  height: 180px;
+}
+.edu-list__icon {
+  margin: 0px auto 15px;
+  width: 45px;
+  height: 45px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.edu-list__icon img {
+  width: 45px;
+  height: 45px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.edu-list__description {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 128%;
+  color: #79819A;
+}
+.edu-list__description span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 128%;
+  color: #79819A;
+  display: block;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
