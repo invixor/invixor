@@ -25,7 +25,7 @@ if (window.screen.width >= 1024) {
     leftSide.style.height = `${document.documentElement.scrollHeight}px`;
     window.addEventListener('resize', ()=>{
         leftSide.style.height = `${rightSide.scrollHeight}px`;
-    })
+    }) 
 }
 
 
