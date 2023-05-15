@@ -22,7 +22,7 @@ let rightSide = document.querySelector('.right__side');
 
 
 if (window.screen.width >= 1024) {
-    leftSide.style.height = `${document.documentElement.scrollHeight}px`;
+    leftSide.style.height = `${rightSide.scrollHeight}px`;
     window.addEventListener('resize', ()=>{
         leftSide.style.height = `${rightSide.scrollHeight}px`;
     }) 
